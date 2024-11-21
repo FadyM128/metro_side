@@ -1,0 +1,242 @@
+<html>
+    
+<head>
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="bookingstyle.css"/>
+</head>
+<body>
+    
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Register.html">Sign Up</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li> <a href="Booking.html">Booking</a> </li>
+        <li><a href="ImageSliding.html">Metro Lines</a></li>
+        <li><a href="Logout.html">Log Out</a></li>
+        </ul>
+    </nav>
+  </header>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="cairo-metro.png" id="icon" alt="User Icon" />
+      </div>
+  
+      <!-- Login Form -->
+      <form>
+        <label for="metro">first station</label>
+        <select id="metro">
+            <optgroup label="Line one">
+                <option value="Helwan">Helwan </option>
+                <option value="Ain Helwan">Ain Helwan</option>
+                <option value="Helwan University">Helwan University </option>
+                <option value="Wady Hoof"> Wady Hoof</option>
+                <option value="Hadayek Helwan"> Hadayek Helwan</option>
+                <option value="Maasara"> Maasara</option>
+                <option value="Tora Asmant">Tora Asmant </option>
+                <option value="Kotsika">Kotsika </option>
+                <option value="Tora El-Balad"> Tora El-Balad</option>
+                <option value="Sakanat El-Maadi"> Sakanat El-Maadi</option>
+                <option value="Maadi"> Maadi</option>
+                <option value="Hadayek El-Maadi"> Hadayek El-Maadi</option>
+                <option value="Dar ElSalam"> Dar ElSalam</option>
+                <option value="El-Zahraa"> El-Zahraa</option>
+                <option value="Mar Gerges"> Mar Gerges</option>
+                <option value="Elmaik Elsaleh">Elmaik Elsaleh </option>
+                <option value="AlSayyeda Zeinab"> AlSayyeda Zeinab</option>
+                <option value="Saad Zaghloul"> Saad Zaghloul</option>
+                <option value="Sadat"> Sadat</option>
+                <option value="Nasser">Nasser </option>
+                <option value="Orabi"> Orabi</option>
+                <option value="Al-Shohadaa">Al-Shohadaa </option>
+                <option value="Ghamra"> Ghamra</option>
+                <option value="El-Demerdash">El-Demerdash </option>
+                <option value="Manshiet El-Sadr"> Manshiet El-Sadr</option>
+                <option value="Kobri El-Qobba">Kobri El-Qobba </option>
+                <option value="Hammamat El-Qobba">Hammamat El-Qobba </option>
+                <option value="Saray El-Qobba">Saray El-Qobba </option>
+                <option value="Hadayeq El-Zaitoun"> Hadayeq El-Zaitoun</option>
+                <option value="El-Matareyya"> El-Matareyya</option>
+                <option value="Ain Shams">Ain Shams </option>
+                <option value="Ezbet El-Nakhl">Ezbet El-Nakhl </option>
+                <option value="El-Marg">El-Marg </option>
+                <option value="New El-Marg">New El-Marg </option>
+            </optgroup>
+            <optgroup label="Line two">
+                <option value="El-Mounib ">El-Mounib </option>
+                <option value="Sakiat Mekky "> Sakiat Mekky </option>
+                <option value="Omm El-Masryeen"> Omm El-Masryeen</option>
+                <option value="Giza ">Giza </option>
+                <option value="Faisal "> Faisal </option>
+                <option value="Cairo University"> Cairo University</option>
+                <option value="El Bohoth ">El Bohoth </option>
+                <option value="Dokki "> Dokki </option>
+                <option value="Opera ">Opera </option>
+                <option value="Sadat "> Sadat </option>
+                <option value="Mohamed Naguib ">Mohamed Naguib </option>
+                <option value="Attaba ">Attaba </option>
+                <option value="Al-Shohadaa["> Al-Shohadaa[</option>
+                <option value="Masarra "> Masarra </option>
+                <option value="Road El-Farag "> Road El-Farag </option>
+                <option value="St. Teresa ">St. Teresa </option>
+                <option value="Khalafawy "> Khalafawy </option>
+                <option value="Mezallat "> Mezallat </option>
+                <option value="Kolleyyet El-Zeraa ">Kolleyyet El-Zeraa </option>
+                <option value="Shubra El-Kheima ">Shubra El-Kheima </option>
+            </optgroup>
+            <optgroup label="Line three">
+                <option value="Airport"> Airport</option>
+                <option value="Ahmed Galal">Ahmed Galal </option>
+                <option value="Adly Mansour">Adly Mansour </option>
+                <option value="El Haykestep">El Haykestep </option>
+                <option value="Omar Ibn El-Khattab"> Omar Ibn El-Khattab</option>
+                <option value="Qobaa">Qobaa </option>
+                <option value="Hesham Barakat">Hesham Barakat </option>
+                <option value="El-Nozha"> El-Nozha</option>
+                <option value="Nadi El-Shams">Nadi El-Shams </option>
+                <option value="Alf Maskan">Alf Maskan </option>
+                <option value="Heliopolis Square"> Heliopolis Square</option>
+                <option value="Haroun"> Haroun</option>
+                <option value="Al-Ahram"> Al-Ahram</option>
+                <option value="Koleyet El-Banat"> Koleyet El-Banat</option>
+                <option value="Stadium">Stadium </option>
+                <option value="Fair Zone"> Fair Zone</option>
+                <option value="Abbassia"> Abbassia</option>
+                <option value="Abdou Pasha">Abdou Pasha </option>
+                <option value="El Geish">El Geish </option>
+                <option value="Bab El Shaaria">Bab El Shaaria </option>
+                <option value="Attaba"> Attaba</option>
+                <option value="Nasser"> Nasser</option>
+                <option value="Maspero">Maspero </option>
+                <option value="Zamalek">Zamalek </option>
+                <option value="Kit Kat"> Kit Kat</option>
+                <option value="Sudan Street">Sudan Street </option>
+                <option value="Imbaba"> Imbaba</option>
+                <option value="El-Bohy">El-Bohy </option>
+                <option value="Cairo University"> Cairo University</option>
+                <option value="El Bohoth">El Bohoth </option>
+                <option value="El-Kawmeya Al-Arabiya"> El-Kawmeya Al-Arabiya</option>
+                <option value="Ring Road">Ring Road </option>
+                <option value="Rod El-Farag Axis">Rod El-Farag Axis </option>
+                <option value="El-Tawfikeya"> El-Tawfikeya</option>
+                <option value="Wadi El-Nil"> Wadi El-Nil</option>
+                <option value="Gamaat El Dowal Al-Arabiya">Gamaat El Dowal Al-Arabiya </option>
+                <option value="Bulaq El-Dakroor"> Bulaq El-Dakroor</option>
+                <option value="Cairo University">Cairo University </option>
+            </optgroup>
+        </select>
+        <br>
+        <label for="metro">last station</label>
+        <select id="metro">
+            <optgroup label="Line one">
+                <option value="Helwan">Helwan </option>
+                <option value="Ain Helwan">Ain Helwan</option>
+                <option value="Helwan University">Helwan University </option>
+                <option value="Wady Hoof"> Wady Hoof</option>
+                <option value="Hadayek Helwan"> Hadayek Helwan</option>
+                <option value="Maasara"> Maasara</option>
+                <option value="Tora Asmant">Tora Asmant </option>
+                <option value="Kotsika">Kotsika </option>
+                <option value="Tora El-Balad"> Tora El-Balad</option>
+                <option value="Sakanat El-Maadi"> Sakanat El-Maadi</option>
+                <option value="Maadi"> Maadi</option>
+                <option value="Hadayek El-Maadi"> Hadayek El-Maadi</option>
+                <option value="Dar ElSalam"> Dar ElSalam</option>
+                <option value="El-Zahraa"> El-Zahraa</option>
+                <option value="Mar Gerges"> Mar Gerges</option>
+                <option value="Elmaik Elsaleh">Elmaik Elsaleh </option>
+                <option value="AlSayyeda Zeinab"> AlSayyeda Zeinab</option>
+                <option value="Saad Zaghloul"> Saad Zaghloul</option>
+                <option value="Sadat"> Sadat</option>
+                <option value="Nasser">Nasser </option>
+                <option value="Orabi"> Orabi</option>
+                <option value="Al-Shohadaa">Al-Shohadaa </option>
+                <option value="Ghamra"> Ghamra</option>
+                <option value="El-Demerdash">El-Demerdash </option>
+                <option value="Manshiet El-Sadr"> Manshiet El-Sadr</option>
+                <option value="Kobri El-Qobba">Kobri El-Qobba </option>
+                <option value="Hammamat El-Qobba">Hammamat El-Qobba </option>
+                <option value="Saray El-Qobba">Saray El-Qobba </option>
+                <option value="Hadayeq El-Zaitoun"> Hadayeq El-Zaitoun</option>
+                <option value="El-Matareyya"> El-Matareyya</option>
+                <option value="Ain Shams">Ain Shams </option>
+                <option value="Ezbet El-Nakhl">Ezbet El-Nakhl </option>
+                <option value="El-Marg">El-Marg </option>
+                <option value="New El-Marg">New El-Marg </option>
+            </optgroup>
+            <optgroup label="Line two">
+                <option value="El-Mounib ">El-Mounib </option>
+                <option value="Sakiat Mekky "> Sakiat Mekky </option>
+                <option value="Omm El-Masryeen"> Omm El-Masryeen</option>
+                <option value="Giza ">Giza </option>
+                <option value="Faisal "> Faisal </option>
+                <option value="Cairo University"> Cairo University</option>
+                <option value="El Bohoth ">El Bohoth </option>
+                <option value="Dokki "> Dokki </option>
+                <option value="Opera ">Opera </option>
+                <option value="Sadat "> Sadat </option>
+                <option value="Mohamed Naguib ">Mohamed Naguib </option>
+                <option value="Attaba ">Attaba </option>
+                <option value="Al-Shohadaa["> Al-Shohadaa[</option>
+                <option value="Masarra "> Masarra </option>
+                <option value="Road El-Farag "> Road El-Farag </option>
+                <option value="St. Teresa ">St. Teresa </option>
+                <option value="Khalafawy "> Khalafawy </option>
+                <option value="Mezallat "> Mezallat </option>
+                <option value="Kolleyyet El-Zeraa ">Kolleyyet El-Zeraa </option>
+                <option value="Shubra El-Kheima ">Shubra El-Kheima </option>
+            </optgroup>
+            <optgroup label="Line three">
+                <option value="Airport"> Airport</option>
+                <option value="Ahmed Galal">Ahmed Galal </option>
+                <option value="Adly Mansour">Adly Mansour </option>
+                <option value="El Haykestep">El Haykestep </option>
+                <option value="Omar Ibn El-Khattab"> Omar Ibn El-Khattab</option>
+                <option value="Qobaa">Qobaa </option>
+                <option value="Hesham Barakat">Hesham Barakat </option>
+                <option value="El-Nozha"> El-Nozha</option>
+                <option value="Nadi El-Shams">Nadi El-Shams </option>
+                <option value="Alf Maskan">Alf Maskan </option>
+                <option value="Heliopolis Square"> Heliopolis Square</option>
+                <option value="Haroun"> Haroun</option>
+                <option value="Al-Ahram"> Al-Ahram</option>
+                <option value="Koleyet El-Banat"> Koleyet El-Banat</option>
+                <option value="Stadium">Stadium </option>
+                <option value="Fair Zone"> Fair Zone</option>
+                <option value="Abbassia"> Abbassia</option>
+                <option value="Abdou Pasha">Abdou Pasha </option>
+                <option value="El Geish">El Geish </option>
+                <option value="Bab El Shaaria">Bab El Shaaria </option>
+                <option value="Attaba"> Attaba</option>
+                <option value="Nasser"> Nasser</option>
+                <option value="Maspero">Maspero </option>
+                <option value="Zamalek">Zamalek </option>
+                <option value="Kit Kat"> Kit Kat</option>
+                <option value="Sudan Street">Sudan Street </option>
+                <option value="Imbaba"> Imbaba</option>
+                <option value="El-Bohy">El-Bohy </option>
+                <option value="Cairo University"> Cairo University</option>
+                <option value="El Bohoth">El Bohoth </option>
+                <option value="El-Kawmeya Al-Arabiya"> El-Kawmeya Al-Arabiya</option>
+                <option value="Ring Road">Ring Road </option>
+                <option value="Rod El-Farag Axis">Rod El-Farag Axis </option>
+                <option value="El-Tawfikeya"> El-Tawfikeya</option>
+                <option value="Wadi El-Nil"> Wadi El-Nil</option>
+                <option value="Gamaat El Dowal Al-Arabiya">Gamaat El Dowal Al-Arabiya </option>
+                <option value="Bulaq El-Dakroor"> Bulaq El-Dakroor</option>
+                <option value="Cairo University">Cairo University </option>
+            </optgroup>
+    
+        </select>
+        
+      <input type="button" onclick="ticket()" class="fadeIn fourth" value="Book">
+      <script>
+          function ticket() {
+              window.location.href="Ticket.jpg"
+          }
+      </script>
+      </form>
+    </body>
+    </html>

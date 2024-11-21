@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="RegisterStyle.css">
+  </head>
+  <header>    
+<nav>
+  <ul></ul>
+  <li> <a href="Register.html">Sign Up</a> </li>
+  <li> <a href="Login.html">Login</a> </li>
+  <li> <a href="Booking.html">Booking</a> </li>
+  <li> <a href="ImageSliding.html">Metro Lines</a> </li>
+  <li> <a href="Logout.html">Log out </a> </li>
+</nav>  
+    <img class = "Logo" src="cairo-metro.png" alt="Metro Logo" width ="150px" length = "150px">
+     
+</header>
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <a href="Login.html" class="active" id="b"> Sign In </a>
+    <a href="Register.html" class="inactive underlineHover" id="bb">Sign Up </a>
+    <!-- Login Form -->
+    <form>
+      <input type="text" id="Name" class="fadeIn second" name="login" placeholder="Name">
+      <input type="text" id="Username" class="fadeIn second" name="login" placeholder="Username">
+      <input type="email" id="Email" class="fadeIn second" name="login" placeholder="Email">
+      <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
+      <br>
+      <label for="type" style="color:white">Admin</label>
+      <input type="radio" class="fadeIn third" name="type">
+      <br>
+      <label for="type" style="color:white">User</label>
+      <input id="type" type="radio" class="fadeIn third" name="type">
+      <br>
+      <input id="submit" type="submit" class="fadeIn fourth" value="Sign Up">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+    <script src="RegisterPro.js"></script>
+  </div>
+</div>

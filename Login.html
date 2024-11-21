@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>login</title>
+    <link rel="stylesheet" href="LoginStyle.css">
+  </head> 
+  <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="Register.html">Sign Up</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li> <a href="Booking.html">Booking</a> </li>
+        <li><a href="ImageSliding.html">Metro Lines</a></li>
+        <li><a href="Logout.html">Log Out</a></li>
+        </ul>
+    </nav>
+  </header>
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <a href="Login.html" class="active" id="b"> Sign In </a>
+    <a href="Register.html" class="inactive underlineHover" id="bb">Sign Up </a>
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <img src="cairo-metro.png" id="icon" alt="User Icon" />
+    </div>
+    </body>
+    <!-- Login Form -->
+      <form method="get" name="login">
+      <input type="text" id="Username" class="fadeIn second" name="Username" placeholder="Username" value="">
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="Password" value="">
+    </form>
+    <button  onclick="compare()" id="submit" class="fadeIn fourth">Log in</button>
+    <script src="LoginPro.js"></script>
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" href="#">Forgot Password?</a>
+    </div>
+
+  </div>
+</div>
+
+</html>
